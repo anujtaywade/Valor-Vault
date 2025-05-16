@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { useNavigate } from "react-router-dom";
 const LandingPage = () => {
     let navigate =useNavigate()
@@ -7,15 +8,20 @@ const LandingPage = () => {
         navigate('/home')
     }
   return (
-    <div >
+    
+    
+    
+    <div className='relative h-screen w-full overflow-hidden flex flex-col justify-center items-center '>
       
+         <video className='absolute top-0 left-0 w-full h-full object-cover z-0' src="\valoLandingVideo.mp4" autoPlay muted loop playsInline></video>
+  
 
-     <div className='h-screen flex flex-col justify-center items-center bg-[#F2F2F2] '>
+     <div className='relative z-10 flex flex-col justify-center items-center  text-[#ECE8E1]'>
+      
+       <img className='' src="/valorantLPI.jpg" alt="valorant" />
+      <h1 className='text-3xl pt-30 '>In The World of Valorant</h1>
+      <button className='text-3xl absolute top-1/2 bg-[#FF4655] py-3 px-6 text-[#ECE8E1] rounded-xl hover:scale-105 transform transition duration-300 ' onClick={handleEnter}>ENTER</button>
 
-     
-      <h1 className='text-2xl pt-10'>In The World of Valorant</h1>
-      <button className='text-3xl absolute top-1/2 bg-[#FF4655] py-3 px-6 text-[#ECE8E1] rounded-xl' onClick={handleEnter}>ENTER</button>
-      <img className='' src="/assets/valorantLPI.jpg" alt="valorant" />
     </div>
     </div>
   )
