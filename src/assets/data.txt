@@ -1,5 +1,5 @@
 colour codes:
-Valorant Red	    #FF4655         Main accent color (logo, highlights)
+Valorant Red#ff4655         Main accent color (logo, highlights)
 Gunmetal Blue	    #0F1923         Background, headers, dark sections
 Light Gray	        #ECE8E1         Body text, UI elements
 Off White	         #F2F2F2        Panel backgrounds, contrast text
