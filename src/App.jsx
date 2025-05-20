@@ -6,9 +6,9 @@ import Agents from './pages/agents';
 import Arsenal from './pages/arsenal';
 import Map from './pages/map';
 import LandingPage from './pages/LandingPage';
-import accessories from './pages/accessories';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Accessories from './pages/accessories';
+import Footer from './components/footer';
 function App() {
   
 
@@ -17,6 +17,7 @@ function App() {
       <BrowserRouter>
       
       <Navbar/>
+      
       <Routes>
        
        <Route path='/' element={<LandingPage/>}/>
@@ -27,6 +28,7 @@ function App() {
         <Route path='/accessories' element={<Accessories/>}/>
         
       </Routes>
+      <Footer/>
       </BrowserRouter>
     </div>
   )
