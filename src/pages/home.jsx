@@ -48,19 +48,190 @@ const Home = () => {
       </div>
 
         </div>
-        <div className=" mt-10 text-7xl flex justify-center">Game Modes</div>
-        <div >
-          {data?.data?.map((item,id)=>(
-            <div key={id}> {item.displayName}</div>
+        <div className=" mt-10 text-7xl flex justify-center ">Game Modes</div>
+       
+       <div className="bg-[#ff4655] text-[#F2F2F2] font-[normal] mt-10 X ">
+        {data?.data?.filter(item=>item.uuid==="96bd3920-4f36-d026-2b28-c683eb0bcac5").map((item,id)=>(
+          
+          
+          <div className="flex items-start  " >
+            <img  src={item.displayIcon} alt="standard"
+             className="object-contain h-[250px] w-auto absolute left-1/6 mt-40" />
+            
+            <div className="mt-10">
+               <h1 className="text-6xl mb-10 ml-70">
+              Mode: {item.displayName}
+            </h1>
+            <h1 className=" mb-5 text-3xl ml-200">
+             <span className="text-4xl">Description: </span><br /> {item.description}
+            </h1>
+            <p className=" text-3xl ml-200 mb-10">
+              <span className="text-4xl">Duration:</span><br />{item.duration}
+            </p>
+            </div>
+           
+          </div>
+        ))}
 
+
+        </div>
+        <div className="bg-[#ff4655] text-[#F2F2F2] font-[normal] mt-10 X ">
+        {data?.data?.filter(item=>item.uuid==="a8790ec5-4237-f2f0-e93b-08a8e89865b2").map((item,id)=>(
+          
+          
+          <div className="flex items-start  " >
+            <img  src={item.displayIcon} alt="standard"
+             className="object-contain h-[250px] w-auto absolute left-1/6 mt-40" />
             
+            <div className="mt-10">
+               <h1 className="text-6xl mb-10 ml-70">
+              Mode: {item.displayName}
+            </h1>
+            <h1 className=" mb-5 text-3xl ml-200">
+             <span className="text-4xl">Description: </span><br /> {item.description}
+            </h1>
+            <p className=" text-3xl ml-200 mb-20">
+              <span className="text-4xl">Duration:</span><br />{item.duration}
+            </p>
+            </div>
+           
+          </div>
+        ))}
+
+        </div>
+
+
+         <div className="bg-[#ff4655] text-[#F2F2F2] font-[normal] mt-10 X ">
+        {data?.data?.filter(item=>item.uuid==="a4ed6518-4741-6dcb-35bd-f884aecdc859").map((item,id)=>(
+          
+          
+          <div className="flex items-start  " >
+            <img  src={item.displayIcon} alt="standard"
+             className="object-contain h-[250px] w-auto absolute left-1/6 mt-40" />
             
-          ))}
+            <div className="mt-10">
+               <h1 className="text-6xl mb-10 ml-70">
+              Mode: {item.displayName}
+            </h1>
+            <h1 className=" mb-5 text-3xl ml-200">
+             <span className="text-4xl">Description: </span><br /> {item.description}
+            </h1>
+            <p className=" text-3xl ml-200 mb-20">
+              <span className="text-4xl">Duration:</span><br />{item.duration}
+            </p>
+            </div>
+           
+          </div>
+        ))}
+
+        </div>
+
+
+        <div className="bg-[#ff4655] text-[#F2F2F2] font-[normal] mt-10 X ">
+        {data?.data?.filter(item=>item.uuid==="e086db66-47fd-e791-ca81-06a645ac7661").map((item,id)=>(
+          
+          
+          <div className="flex items-start  " >
+            <img  src={item.displayIcon} alt="standard"
+             className="object-contain h-[250px] w-auto absolute left-1/6 mt-40" />
+            
+            <div className="mt-10">
+               <h1 className="text-6xl mb-10 ml-70">
+              Mode: {item.displayName}
+            </h1>
+            <h1 className=" mb-5 text-3xl ml-200">
+             <span className="text-4xl">Description: </span><br /> {item.description}
+            </h1>
+            <p className=" text-3xl ml-200 mb-20">
+              <span className="text-4xl">Duration:</span><br />{item.duration}
+            </p>
+            </div>
+           
+          </div>
+        ))}
+
+        </div>
+
+        <div className="bg-[#ff4655] text-[#F2F2F2] font-[normal] mt-10 X ">
+        {data?.data?.filter(item=>item.uuid==="4744698a-4513-dc96-9c22-a9aa437e4a58").map((item,id)=>(
+          
+          
+          <div className="flex items-start  " >
+            <img  src={item.displayIcon} alt="standard"
+             className="object-contain h-[250px] w-auto absolute left-1/6 mt-40" />
+            
+            <div className="mt-10">
+               <h1 className="text-6xl mb-10 ml-70">
+              Mode: {item.displayName}
+            </h1>
+            <h1 className=" mb-5 text-3xl ml-200">
+             <span className="text-4xl">Description: </span><br /> {item.description}
+            </h1>
+            <p className=" text-3xl ml-200 mb-20">
+              <span className="text-4xl">Duration:</span><br />{item.duration}
+            </p>
+            </div>
+           
+          </div>
+        ))}
+
+        </div>
+
+         <div className="bg-[#ff4655] text-[#F2F2F2] font-[normal] mt-10 X ">
+        {data?.data?.filter(item=>item.uuid==="e921d1e6-416b-c31f-1291-74930c330b7b").map((item,id)=>(
+          
+          
+          <div className="flex items-start  " >
+            <img  src={item.displayIcon} alt="standard"
+             className="object-contain h-[250px] w-auto absolute left-1/6 mt-40" />
+            
+            <div className="mt-10">
+               <h1 className="text-6xl mb-10 ml-70">
+              Mode: {item.displayName}
+            </h1>
+            <h1 className=" mb-5 text-3xl ml-200">
+             <span className="text-4xl">Description: </span><br /> {item.description}
+            </h1>
+            <p className=" text-3xl ml-200 mb-20">
+              <span className="text-4xl">Duration:</span><br />{item.duration}
+            </p>
+            </div>
+           
+          </div>
+        ))}
+
         </div>
 
         
-       
-    </div>
+         <div className="bg-[#ff4655] text-[#F2F2F2] font-[normal] mt-10 X ">
+        {data?.data?.filter(item=>item.uuid==="5d0f264b-4ebe-cc63-c147-809e1374484b").map((item,id)=>(
+          
+          
+          <div className="flex items-start  " >
+            <img  src={item.displayIcon} alt="standard"
+             className="object-contain h-[250px] w-auto absolute left-1/6 mt-40" />
+            
+            <div className="mt-10">
+               <h1 className="text-6xl mb-10 ml-70">
+              Mode: {item.displayName}
+            </h1>
+            <h1 className=" mb-5 text-3xl ml-200">
+             <span className="text-4xl">Description: </span><br /> {item.description}
+            </h1>
+            <p className=" text-3xl ml-200 mb-20">
+              <span className="text-4xl">Duration:</span><br />{item.duration}
+            </p>
+            </div>
+           
+          </div>
+        ))}
+
+        </div>
+
+
+
+         
+        </div>
     
   )
 }
