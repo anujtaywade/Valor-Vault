@@ -20,7 +20,7 @@ const LandingPage = () => {
       
        <img className='' src="/valorantLPI.jpg" alt="valorant" />
       <h1 className='text-3xl pt-30 '>In The World of Valorant</h1>
-      <button className='text-3xl absolute top-1/2 bg-[#FF4655] py-3 px-6 text-[#ECE8E1] border-1 hover:scale-105 transform transition duration-300 hover:bg-black ' onClick={handleEnter}>ENTER</button>
+      <button className='text-3xl absolute top-1/2 bg-[#FF4655] py-3 px-6 text-[#ECE8E1] border-1 hover:scale-105 transform transition duration-300 hover:bg-white hover:text-black' onClick={handleEnter}>ENTER</button>
     </div>
     </div>
   )

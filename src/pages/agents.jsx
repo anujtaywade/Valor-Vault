@@ -14,8 +14,8 @@ const Agents = () => {
   }, []);
 
   return (
-    <div className='flex items-center px-10 py-6 bg-[#0F1923]'>
-      <h1>
+    <div className='items-center px-10 py-6 bg-[#0F1923]'>
+      <h1 className='text-8xl mt-20 mb-25 ml-20 text-[#ECE8E1]'>
         AGENTS
       </h1>
       <div className='grid grid-cols-4 sm:grid-cols-4 md:grid-cols-3 gap-10 '>
