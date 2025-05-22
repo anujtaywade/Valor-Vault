@@ -54,7 +54,7 @@ const Home = () => {
          <h2 className='absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 pt-200 text-[#ECE8E1] text-6xl font-bold drop-shadow-lg bg-gradient-to-r from-[#c48a39] to-[#ECE8E1] text-transparent bg-clip-text '>
           Decode the Game. Dominate the Meta
         </h2>
-        <video className='w-full h-full object-cover' src="/chamber home page.mp4" loop autoPlay playsInline muted></video>
+        <video className='w-full h-full object-cover'  src="/chamber home page.mp4" loop autoPlay playsInline muted ></video>
         </div>
         
         <div>
@@ -67,7 +67,7 @@ const Home = () => {
       </h3>
 
       <div className="relative h-[300px]">
-        <img className=' absolute bottom-50  left-300  transform -translate-x-1/2 w-[980px] max-w-full object-contain drop-shadow-xl   ' src="\accent_home.png" alt="" />
+        <img loading="lazy" className=' absolute bottom-50  left-300  transform -translate-x-1/2 w-[980px] max-w-full object-contain drop-shadow-xl   ' src="\accent_home.png" alt="" />
       
       <button className='ml-30 mt-10 text-4xl border-2 p-3  font-serif hoverr hover:scale-105 transform transition duration-300 bg-[#FF4655] text-[#F2F2F2] hover:bg-black ' onClick={handleOfficial} >learn more</button>
       </div>
@@ -83,7 +83,7 @@ const Home = () => {
           if(!mode) return null
           return(
              <div className="flex items-start  " >
-            <img  src={mode.displayIcon} alt="standard"
+            <img loading="lazy"  src={mode.displayIcon} alt="standard"
              className="object-contain h-[250px] w-auto absolute left-1/6 mt-40" />
             
             <div className="mt-10">
@@ -107,7 +107,7 @@ const Home = () => {
                         {/* compitative tier page data */}
           <div className="max-w-5xl mx-auto py-10 px-4">
             <div className="text-center mt-40 text-7xl  ">Valorant competitive Tier</div>
-              <div className="grid grid-cols-4 sm:grid-cols-3 md:grid-cols-4 gap-10 text-center mt-10 text-5xl">
+              <div className="grid grid-cols-4 sm:grid-cols-3 md:grid-cols-4 gap-10 text-center mt-10   text-5xl">
                
                {compiModeuuid.map(uuid=>{
                 let tierMode= TierData?.data?.find(item=>item.uuid===uuid)

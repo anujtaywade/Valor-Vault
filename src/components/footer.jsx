@@ -7,7 +7,7 @@ const footer = () => {
   return (
     <div>
       <footer 
-      className=' text-center w-full p-4 bg-gray-900 text-gray-400 '>
+      className=' text-center w-full p-4 bg-gray-950 text-gray-400 '>
        <div >
          <button className='text-3xl p-2 text-[#F2F2F2] hover: hover scale-105 transform transition duration-300 hover:bg-black rounded '>
             <a href="https://playvalorant.com/en-gb/" target='_blank'> Visit Official valorant site</a>
