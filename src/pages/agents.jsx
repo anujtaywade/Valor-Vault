@@ -24,7 +24,7 @@ const Agents = () => {
         .map((item)=>(
           <div className='hover hover:scale-105 transform transition duration-300' key={item.uuid}>
             
-            <img className='bg-gray-800 object-contain mx-auto ' src={item.fullPortrait} alt="" />
+            <img loading='lazy' className='bg-gray-800 object-contain mx-auto ' src={item.fullPortrait} alt="" />
             <h1 className='text-center text-[#121212] text-4xl p-2 bg-white'>
               {item.displayName}
             </h1>

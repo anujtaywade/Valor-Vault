@@ -82,7 +82,7 @@ const Home = () => {
           let mode = data?.data?.find(item=>item.uuid===uuid)
           if(!mode) return null
           return(
-             <div className="flex items-start  " >
+             <div key={uuid} className="flex items-start  " >
             <img loading="lazy"  src={mode.displayIcon} alt="standard"
              className="object-contain h-[250px] w-auto absolute left-1/6 mt-40" />
             
@@ -117,7 +117,7 @@ const Home = () => {
                   return(
                      <div key={`${tier.tierName}-${index}`}>
                       <div className="flex flex-col items-center hover hover:scale-105 transform transition duration-300 hover:shadow-2xl hover:bg-[#1f1f1f] hover:text-[#ECE8E1]">
-                        <img src={tier.largeIcon} alt=""  />
+                        <img loading="lazy" src={tier.largeIcon} alt=""  />
                     <p className="">{tier.tierName}</p> 
                       </div>
                     
