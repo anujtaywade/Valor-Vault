@@ -51,7 +51,7 @@ const Home = () => {
         <h1 className='absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 pt-150 text-[#ECE8E1] text-8xl font-bold drop-shadow-lg bg-clip-text bg-gradient-to-r from-[#c48a39] to-[#ECE8E1] text-transparent bg-clip-text' >
           Valor Vault : 
         </h1>
-         <h2 className='absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 pt-200 text-[#ECE8E1] text-6xl font-bold drop-shadow-lg bg-gradient-to-r from-[#c48a39] to-[#ECE8E1] text-transparent bg-clip-text '>
+         <h2 className='absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 pt-200  text-[#ECE8E1]  text-6xl font-bold drop-shadow-lg bg-gradient-to-r from-[#c48a39] to-[#ECE8E1] text-transparent bg-clip-text '>
           Decode the Game. Dominate the Meta
         </h2>
         <video className='w-full h-full object-cover'  src="/chamber home page.mp4" loop autoPlay playsInline muted ></video>

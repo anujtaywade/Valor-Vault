@@ -9,7 +9,7 @@ const Navbar = () => {
             <li><Link to="/agents">Agents</Link></li>
             <li><Link to="/map">Map</Link></li>
             <li><Link to="/arsenal">Arsenal</Link></li>
-            <li><Link to='/accessories'>Accessories</Link> </li>
+            <li className='hover'><Link to='/accessories'>Accessories</Link> </li>
           
         </ul>
       </nav>

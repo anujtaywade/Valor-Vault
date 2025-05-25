@@ -25,7 +25,7 @@ const [weaponsdata, setweaponsdata] = useState([]);
           const defaultSkin = weapon.skins.find(
             (skin) => skin.uuid === weapon.defaultSkinUuid
           );
-          if(!defaultSkin || !defaultSkin.displayIcon) return null
+          if(!defaultSkin || !defaultSkin.displayIcon ) return null
         return(
           <div className='items-center object-contain  ' key={weapon.uuid} >
             <img className='' src={defaultSkin.displayIcon} alt="" />
