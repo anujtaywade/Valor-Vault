@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        bebas: ['Bebas Neue', 'sans-serif'],
+      Bebas: ['Bebas Neue', 'sans-serif'],
       },
     },
   },
