@@ -9,6 +9,9 @@ import LandingPage from './pages/LandingPage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Accessories from './pages/accessories';
 import Footer from './components/footer';
+import Spray from './pages/spray';
+import Buddies from './pages/buddies';
+import PlayerCard from './pages/playerCard';
 function App() {
   
 
@@ -26,7 +29,9 @@ function App() {
         <Route path='/mapPage' element={<MapPage/>} />
         <Route path='/agents' element={<Agents/>} />
         <Route path='/accessories' element={<Accessories/>}/>
-        
+        <Route path='/spray' element={<Spray/>}/>
+        <Route path='/playerCard' element={<PlayerCard/>}/>
+        <Route path='/buddies' element={<Buddies/>}/>
       </Routes>
       <Footer/>
       </BrowserRouter>

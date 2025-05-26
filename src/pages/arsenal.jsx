@@ -21,12 +21,12 @@ const [weaponsdata, setweaponsdata] = useState([]);
   return (
     
     <div className='bg-[#0F1923] text-[#ECE8E1] px-10 py-6 '>
-        <h1 className='pt-30 text-8xl ml-30 pb-15 '>
+        <h1 className='pt-30 text-8xl ml-30 pb-20 '>
           weapons
         </h1>
       <div className=''>
 
-      <div className='grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-10 mt-10 '>
+      <div className='grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-10 mt-10 p-10'>
         {/* {console.log(weaponsdata)} */}
         {weaponsdata.map((weapon) => {
           return(
