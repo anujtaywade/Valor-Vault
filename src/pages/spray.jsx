@@ -20,7 +20,7 @@ const spray = () => {
      console.log(sprayData)
   return (
     <div className="bg-[#0F1923] text-[#ECE8E1] min-h-screen px-6 py-10">
-      <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-center mb-12">Sprays</h1>
+      <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-center mb-20">Sprays</h1>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-10">
         {sprayData
