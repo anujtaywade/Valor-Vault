@@ -24,7 +24,7 @@ const buddies = () => {
       <div className='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 gap-10 '> 
         {buddies
         .filter((item)=>item.displayIcon)
-        // .sort((a,b)=>a.displayName.localCompare(b.displayName))
+        .sort((a,b)=>a.displayName.localCompare(b.displayName))
         .map((item)=>(
           <div className='flex felx-col justify-center bg-[#1A1E24] p-4 hover:scale-105 transform transition duration-300 rounded-xl shadow-lg'>
             <div className='' key={item.uuid}>

@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { useEffect,useState } from 'react';
 
+
 const Home = () => {
   const [data, setdata] = useState(null);
   const [TierData, setTierData] = useState();
@@ -75,6 +76,8 @@ const Home = () => {
         </div>
                       {/* game mode data page */}
 
+     
+       
         <div className=" mt-10 text-7xl flex justify-center ">Game Modes</div>
        
        <div className="bg-[#ff4655] text-[#F2F2F2] font-[normal] mt-10 X ">
