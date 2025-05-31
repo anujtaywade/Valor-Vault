@@ -12,6 +12,8 @@ import Footer from './components/footer';
 import Spray from './pages/spray';
 import Buddies from './pages/buddies';
 import PlayerCard from './pages/playerCard';
+import AgentCard from './cards/agentCard';
+
 function App() {
   
 
@@ -28,6 +30,7 @@ function App() {
         <Route path='/arsenal' element={<Arsenal/>} />
         <Route path='/mapPage' element={<MapPage/>} />
         <Route path='/agents' element={<Agents/>} />
+        <Route path='/agent/:agentId' element={<AgentCard/>}/>
         <Route path='/accessories' element={<Accessories/>}/>
         <Route path='/spray' element={<Spray/>}/>
         <Route path='/playerCard' element={<PlayerCard/>}/>
