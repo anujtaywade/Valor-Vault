@@ -73,14 +73,14 @@ useEffect(() => {
       </div>
 
       <div className='relative flex flex-col '>
-        <div className='border-2 border-gray-300 w-96 h-96  justify-between absolute right-10 bottom-[1100px] overflow-hidden'>
+        <div className='border-2 border-gray-300 w-96 h-96  justify-between absolute right-10 bottom-[1100px] overflow-hidden '>
           <h1 className='text-center text-2xl p-3'>
             {displayedData? 'map layout' : 'Select map to view layout'}
           </h1>
           {displayedData && (
             <div>
               <img
-            className='object-contain mx-auto h-94 w-full'
+            className='object-contain mx-auto h-94 w-full '
             src={displayedData} alt="" />
 
            

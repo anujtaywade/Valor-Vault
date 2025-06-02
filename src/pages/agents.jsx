@@ -18,10 +18,10 @@ const Agents = () => {
 
   return (
     <div className='items-center px-10 py-6 bg-[#0F1923]'>
-      <h1 className='text-8xl mt-30 mb-20 ml-30 text-[#ECE8E1]'>
+      <h1 className='text-8xl mt-30 mb-20 ml-30 text-[#ECE8E1] '>
         AGENTS
       </h1>
-      <div className='grid grid-cols-4 sm:grid-cols-4 md:grid-cols-3 gap-10 p-10 '>
+      <div className='grid grid-cols-4 sm:grid-cols-2 md:grid-cols-3 gap-10 p-10 '>
         {agentsData
         .filter((item)=>item.fullPortrait)
         .map((item)=>(
