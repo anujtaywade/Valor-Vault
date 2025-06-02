@@ -16,9 +16,7 @@ const [weaponsdata, setweaponsdata] = useState([]);
       .catch((error)=>console.log("error in fetching weapons data",error));
       
     }, []);
-    
-    
-    
+     
   return (
     
     <div className='bg-[#0F1923] text-[#ECE8E1] px-10 py-6 '>
