@@ -1,5 +1,6 @@
 
 import { useEffect,useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Arsenal = () => {
 const [weaponsdata, setweaponsdata] = useState([]);
@@ -27,13 +28,15 @@ const [weaponsdata, setweaponsdata] = useState([]);
       <div className=''>
 
       <div className='grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-10 mt-10 p-10'>
-        {/* {console.log(weaponsdata)} */}
+        {console.log(weaponsdata)}
         {weaponsdata.map((weapon) => {
           return(
-            <div className='flex flex-col justify-between bg-gray-800   rounded-xl object-contain  hover hover:scale-105 transform transition duration-300' key={weapon.uuid} >
-            <img loading='lazy' className='p-10' src={weapon.displayIcon} alt="" />
+            <Link to={`/weaponSkins/${weapon.uuid}`}  key={weapon.uuid} >
+            <div className='flex flex-col justify-between bg-gray-800   rounded-xl hover hover:scale-105 transform transition duration-300'>
+            <img loading='lazy' className='p-10  object-contain h-56 w-full' src={weapon.displayIcon} alt="" />
             <h1 className='text-center text-3xl p-2  bg-white text-black '>{weapon.displayName}</h1>
           </div>
+          </Link>
         )
       })}
       </div>

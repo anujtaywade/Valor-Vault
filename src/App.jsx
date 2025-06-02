@@ -13,6 +13,7 @@ import Spray from './pages/spray';
 import Buddies from './pages/buddies';
 import PlayerCard from './pages/playerCard';
 import AgentCard from './cards/agentCard';
+import WeaponsCard from './cards/weaponsCard'
 
 function App() {
   
@@ -35,6 +36,7 @@ function App() {
         <Route path='/spray' element={<Spray/>}/>
         <Route path='/playerCard' element={<PlayerCard/>}/>
         <Route path='/buddies' element={<Buddies/>}/>
+        <Route path='/weaponSkins/:weaponId' element={<WeaponsCard/>}/>
       </Routes>
       <Footer/>
       </BrowserRouter>
