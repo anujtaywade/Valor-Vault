@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+  'iphone14promax': '430px',
+},
       fontFamily: {
       Bebas: ['Bebas Neue', 'sans-serif'],
       },
