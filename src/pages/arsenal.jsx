@@ -19,20 +19,20 @@ const [weaponsdata, setweaponsdata] = useState([]);
      
   return (
     
-    <div className='bg-[#0F1923] text-[#ECE8E1] px-10 py-6 '>
-        <h1 className='pt-30 text-8xl ml-30 pb-20 '>
+    <div className='bg-[#0F1923] text-[#ECE8E1] px-0 py-6 md:px-10'>
+        <h1 className='pt-30 text-8xl ml-15 pb-5 sm:pb-20 sm:ml-30 md:pb-20 md:ml-30'>
           weapons
         </h1>
       <div className=''>
 
-      <div className='grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-10 mt-10 p-10'>
+      <div className='grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-10 mt-10 p-10 '>
         {console.log(weaponsdata)}
         {weaponsdata.map((weapon) => {
           return(
             <Link to={`/weaponSkins/${weapon.uuid}`}  key={weapon.uuid} >
-            <div className='flex flex-col justify-between bg-gray-800   rounded-xl hover hover:scale-105 transform transition duration-300'>
+            <div className='flex flex-col justify-between bg-gray-800   rounded-xl hover hover:scale-105 transform transition duration-300 '>
             <img loading='lazy' className='p-10  object-contain h-56 w-full' src={weapon.displayIcon} alt="" />
-            <h1 className='text-center text-3xl p-2  bg-white text-black '>{weapon.displayName}</h1>
+            <h1 className='text-center text-xs p-2  bg-white text-black sm:text-3xl md:text-3xl '>{weapon.displayName}</h1>
           </div>
           </Link>
         )
