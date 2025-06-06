@@ -17,7 +17,7 @@ const playerCard = () => {
     
     if (loading) return <p>loading playerCard data</p>
   return (
-    <div className='px-10 py-4 sm:px-6 sm:py-10 md:px-6 md:py-10 bg-[#0F1923]'>
+    <div className='px-5 py-6 sm:px-6 sm:py-10 md:px-6 md:py-10 bg-[#0F1923]'>
       <h1 className='text-3xl text-center text-[#ECE8E1] mb-15 mt-20 sm:text-4xl md:text-6xl'>
         Player Cards
       </h1>

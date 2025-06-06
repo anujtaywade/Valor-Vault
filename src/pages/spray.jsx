@@ -19,7 +19,7 @@ const spray = () => {
     if (loading) return <p>loading spray data</p>
      console.log(sprayData)
   return (
-    <div className="bg-[#0F1923] text-[#ECE8E1] min-h-screen px-10 py-4 sm:px-6 sm:py-10 md:px-6 md:py-10 ">
+    <div className="bg-[#0F1923] text-[#ECE8E1] min-h-screen px-5 py-4 sm:px-6 sm:py-10 md:px-6 md:py-10 ">
       <h1 className="text-3xl sm:text-6xl md:text-7xl font-bold text-center mb-10 mt-20 sm:mb-20 md:mb-20">Sprays</h1>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-10 md:gap-10 overflow-hidden">

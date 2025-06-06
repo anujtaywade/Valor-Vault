@@ -16,12 +16,12 @@ const buddies = () => {
   }, []);
   if (loading) return <p className='text-center'>loading buddies data</p>
   return (
-    <div className='px-10 py-4 items-center bg-[#0F1923] text-[#ECE8E1] sm:px-6 sm:py-10 md:px-6 md:py-10'>
+    <div className='px-4 py-6 items-center bg-[#0F1923] text-[#ECE8E1] sm:px-6 sm:py-10 md:px-6 md:py-10'>
       <h1 className='text-3xl text-center mb-15 mt-20 sm:text-6xl md:text-6xl'>
         Buddies
       </h1>
       
-      <div className='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 gap-4 sm:gap-10 md:gap-10 '> 
+      <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 gap-4 sm:gap-10 md:gap-10 '> 
         {buddies
         .filter((item)=>item.displayIcon)
         .sort((a,b)=>a.displayName.localeCompare(b.displayName))

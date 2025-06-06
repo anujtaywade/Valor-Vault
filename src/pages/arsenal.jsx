@@ -15,7 +15,7 @@ const Arsenal = () => {
   return (
     <div className='bg-[#0F1923] text-[#ECE8E1] px-4 py-6 sm:px-6 md:px-10'>
  
-      <h1 className='text-center text-3xl sm:text-5xl md:text-7xl font-bold mb-10 mt-30 sm:mt-30 md:mt-30'>
+      <h1 className='text-center text-3xl sm:text-5xl md:text-7xl font-bold mb-10 mt-15 sm:mt-30 md:mt-30'>
         Weapons
       </h1>
 
@@ -30,7 +30,7 @@ const Arsenal = () => {
                   src={weapon.displayIcon}
                   alt={weapon.displayName}
                 />
-                <h1 className='mt-2 text-sm sm:text-lg md:text-xl text-center bg-white text-black w-full py-1'>
+                <h1 className='mt-2 text-sm sm:text-lg md:text-xl text-center bg-white text-black w-full py-1 rounded'>
                   {weapon.displayName}
                 </h1>
               </div>
