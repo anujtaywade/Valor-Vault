@@ -18,9 +18,9 @@ const LandingPage = () => {
 
      <div className='relative z-10 flex flex-col justify-center items-center  text-[#ECE8E1]'>
       
-       <img className='' src="/valorantLPI.jpg" alt="valorant" />
-      <h1 className='text-3xl pt-30 '>In The World of Valorant</h1>
-      <button className='text-3xl absolute top-1/2 bg-[#FF4655] py-3 px-6 text-[#ECE8E1] border-1 hover:scale-105 transform transition duration-300 hover:bg-white hover:text-black' onClick={handleEnter}>ENTER</button>
+       <img className='w-60 h-full md:w-1/2' src="/valorantLPI.jpg" alt="valorant" />
+      <h1 className='text-2xl sm:text-3xl md:text-3xl pt-30 '>In The World of Valorant</h1>
+      <button className='text-xl sm:text-3xl md:text-3xl absolute top-1/2 bg-[#FF4655] py-2 md:py-3 sm:py-3 px-6 text-[#ECE8E1] border-1 hover:scale-105 transform transition duration-300 hover:bg-white hover:text-black '  onClick={handleEnter}>ENTER</button>
     </div>
     </div>
   )
